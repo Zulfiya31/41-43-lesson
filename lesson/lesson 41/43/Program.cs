@@ -1,0 +1,13 @@
+﻿Console.WriteLine("Введите значение K1 ");
+int K1 = int.Parse(Console.ReadLine());
+Console.WriteLine("Введите значение b1 ");
+int b1 = int.Parse(Console.ReadLine());
+Console.WriteLine("Введите значение K2 ");
+int K2 = int.Parse(Console.ReadLine());
+Console.WriteLine("Введите значение b2 ");
+int b2 = int.Parse(Console.ReadLine());
+int a = int K1-int K2;
+int b = int b2 - int b1;
+int x = int a/int b;
+int y = K1*x + int b1;
+Console.WriteLine("("+x+";"+y+")");
