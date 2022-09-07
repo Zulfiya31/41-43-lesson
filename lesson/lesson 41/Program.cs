@@ -1,4 +1,5 @@
-﻿Console.WriteLine("Сколько всего чисел вы введете ");
+Задача 41 - 
+Console.WriteLine("Сколько всего чисел вы введете ");
 int get = int.Parse(Console.ReadLine());
 double[]array = new double [get];
 for(int i=0; i<array.Length;i++){
